@@ -1,32 +1,41 @@
 <!DOCTYPE HTML>
 <html lang="tr">
-<meta charset="utf-8">
-<title> Hello World! </title>
-<style> 
-body {background-image:url("/Users/semih/Desktop/background.jpeg");}
-body {background-color: rgb(82, 80, 80);}
-h1 {font-family: 'Courier New', Courier, monospace       ;}
-p {font-style: italic; font-family: 'Courier New', Courier, monospace; color: darksalmon;   }
-a {color:limegreen;}
-#example1 {
-  border: 20px solid salmon;
-  padding: 108px;
-  background: url(/Users/semih/Desktop/mountain.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, inital-scale=1">
+<style>
+body {background-color: black;}
 </style>
+<title> Kalmuk Tekstil </title>
+<head> 
+  <link href="style.css" rel="stylesheet">
+  <link href="reset.css" rel="stylesheet">
+
+  <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
 <body>
-    <h1> Hello World </h1>
-    <p> Türkiye dünyanın en güzel ülkesidir. </p>
-    <p style="background-color: rgb(14, 167, 167);";> bir <br> derdim <br> var <br> artık <br> tutamam <br> içimde </p>
-    <p> <a href="https://google.com" target="_blank"> google'a gitmek için tıklayınız </a>  
-    <button title="Google" onclick="document.location='https://google.com'">Google</button>  </p>
-    <p> <a href="mailto:semihkalmuk@hotmail.com"> Mail göndermek içn tıklayınız </a> </p>
-    <img title="örnek" src="/Users/semih/Desktop/mountain.png" alt="örneğimiz" width="650" height="200" >
-    <p> <a href="javascript:void(0)" onclick="alert('merhaba')"> uyarı için tıklayınız </a> </p>
-    <div id="example1">
-        <h2 style="font-size:300%;"> Projeme Hoşgeldin</h2>
-      </div>
-</body>
+<div id="anaproje">
+  <div id="textBody">
+   <h1 style="font-size:300%;"> Kalmuk Tekstil </h1>
+   <p style="font-size:160%;"> Perde & Döşemelik </p>
+</div>
+<div id="harita">   <p> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d377.73517893019346!2d29.92411947738592!3d40.76463249769436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb4581012150fb%3A0x719e39bf884bf9d1!2zS2FsbXVrIFBlcmRlICYgRMO2xZ9lbWVsaWs!5e0!3m2!1str!2str!4v1665140797063!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+
+</div>
+  <div id="butonlar">
+    <a href="https://google.com" target="_blank" class="fa-brands fa-google"></a>
+    <a href="https://instagram.com" target="_blank" class="fa-brands fa-instagram"></a>
+    <a href="https://twitter.com" target="_blank" class="fa-brands fa-twitter"></a>
+    <a href="https://facebook.com" target="_blank" class="fa-brands fa-facebook"></a>
+
+  </div>
+  <div id="konum">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+      <circle cx="12" cy="11" r="3"></circle>
+      <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
+   </svg>
+   <span> Tepecik Mahallesi Tepecik Sokak No:9/A Kocaeli/İzmit</span>
+  </div>
+</div>
+  </body>
 </html>

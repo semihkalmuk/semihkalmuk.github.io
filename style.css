@@ -1,0 +1,37 @@
+
+#anaproje {
+    text-align: center;
+    size: 100px;
+    top: 80%;
+    left: 50%;
+}
+#textBody {
+    text-align: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+    color: white;
+}
+
+
+#butonlar {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+    color: white;
+    font-size: 40px;    
+}
+#konum {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+  
+    color: white;
+}
+#harita {
+    text-align: center;
+    top: 1%;
+   
+}
