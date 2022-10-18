@@ -1,37 +1,66 @@
-
-#anaproje {
-    text-align: center;
-    size: 100px;
-    top: 80%;
-    left: 50%;
+body {
+    background-color: rgb(13, 13, 13);
+    font-family: Lato, sans-serif;
+    margin: 0;
 }
-#textBody {
-    text-align: center;
-
-    top: 50%;
-    left: 50%;
-    transform: translate (-50%, -50%);
+#buttons {
     color: white;
-}
-
-
-#butonlar {
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate (-50%, -50%);
-    color: white;
-    font-size: 40px;    
 }
 #konum {
-    text-align: center;
-    top: 50%;
-    left: 50%;
-  
     color: white;
+    text-align: center;
+}
+#navbar {
+    background-color: black;
+    color: whitesmoke;
+    width: 100vw;
+    height: fit-content;
+    box-shadow: 0 5px 5px 0 black;
+
+}
+ul{
+    list-style:none;
+    margin:0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1cm 0;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 2.5cm;
+    position: relative;
+    transition: all ease-in-out 250ms
+}
+li a::after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0.12cm;
+    width: 0%;
+    background-color: rgb(43, 41, 41);
+    bottom: -0.75em;
+    transition: all ease-in-out 250ms;
+}
+li a:hover::after{
+    width: 60%;
+    opacity: 60%;
+}
+li a:hover {
+    color: gray;
+    transition: all ease-in-out 250ms;
+}
+li:first-child{
+    margin-right: auto;
+    margin-left: 0.5cm;
+    margin-bottom: ;
 }
 #harita {
     text-align: center;
-    top: 1%;
-   
+}
+#buttons {
+    text-align: center;
+    top: 50%;
+    left: 50%;
 }
