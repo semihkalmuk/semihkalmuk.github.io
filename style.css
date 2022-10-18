@@ -6,9 +6,20 @@ body {
 #buttons {
     color: white;
 }
+#harita {
+    text-align: center;
+    margin-top: 10px;
+}
+#buttons {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+}
 #konum {
     color: white;
     text-align: center;
+    margin-top: 10px;
 }
 #navbar {
     background-color: black;
@@ -55,12 +66,4 @@ li:first-child{
     margin-right: auto;
     margin-left: 0.5cm;
     margin-bottom: ;
-}
-#harita {
-    text-align: center;
-}
-#buttons {
-    text-align: center;
-    top: 50%;
-    left: 50%;
 }
