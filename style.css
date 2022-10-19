@@ -61,9 +61,8 @@ li a:hover::after{
 li a:hover {
     color: gray;
     transition: all ease-in-out 250ms;
+    opacity: 70%;
 }
 li:first-child{
     margin-right: auto;
-    margin-left: 0.5cm;
-    margin-bottom: ;
-}
+    margin-left: 0.5cm;}
