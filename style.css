@@ -4,16 +4,17 @@ body {
     margin: 0;
 }
 #mainproject {
-    background-image:url(curtain.jpg) ;
+    background-image: url(curtain.jpg);
     background-repeat: no-repeat;
     background-size: 100%; 
-    z-index:5;
+    background-attachment: fixed;
     }
 #buttons {
     color: white;
 }
 #harita {
     text-align: center;
+    padding-top: 140px;
 }
 #buttons {
     text-align: center;
@@ -71,4 +72,10 @@ li a:hover {
 li:first-child{
     margin-right: auto;
     margin-left: 0.5cm;}
+#goupbutton {
+    position: fixed;
+   bottom: 1%;
+   right: 1%;
     
+
+}    
