@@ -4,9 +4,9 @@ body {
     margin: 0;
 }
 #mainproject {
-    background-image: url(curtain.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%; 
+    background-image: url(etnik3.webp);
+    background-repeat:repeat;
+    background-size: 10%; 
     background-attachment: fixed;
     }
 #buttons {
@@ -14,7 +14,7 @@ body {
 }
 #harita {
     text-align: center;
-    padding-top: 140px;
+    padding-top: 500px;
 }
 #buttons {
     text-align: center;
@@ -30,9 +30,9 @@ body {
 #navbar {
     background-color: black;
     color: whitesmoke;
-    width: 100vw;
+    width: 100%;
     height:auto;
-    box-shadow: 0 5px 5px 0 black;
+    position:fixed;
 
 }
 ul{
@@ -74,8 +74,8 @@ li:first-child{
     margin-left: 0.5cm;}
 #goupbutton {
     position: fixed;
-   bottom: 1%;
-   right: 1%;
+    bottom: 1%;
+    right: 1%;
     
 
 }    
