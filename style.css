@@ -3,12 +3,17 @@ body {
     font-family: Lato, sans-serif;
     margin: 0;
 }
+#mainproject {
+    background-image:url(curtain.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    z-index:5;
+    }
 #buttons {
     color: white;
 }
 #harita {
     text-align: center;
-    margin-top: 30px;
 }
 #buttons {
     text-align: center;
@@ -25,7 +30,7 @@ body {
     background-color: black;
     color: whitesmoke;
     width: 100vw;
-    height: fit-content;
+    height:auto;
     box-shadow: 0 5px 5px 0 black;
 
 }
@@ -66,3 +71,4 @@ li a:hover {
 li:first-child{
     margin-right: auto;
     margin-left: 0.5cm;}
+    
