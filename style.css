@@ -89,17 +89,18 @@ li a:hover {
     }    
     div.gallery {
         margin: 5px;
-        border: 1px solid gray;
+        border: 1px solid rgb(60, 59, 59);
         float: left;
         width: 500px;
         margin-top: 5cm;
         background-color: black;
-        margin-left: 3.5cm;
+        margin-left: 3.85cm;
         margin-bottom: -3cm;
       }
       
       div.gallery:hover {
-        border: 1px solid #777;
+        border: 1px solid rgb(60, 59, 59);
+        border-radius: 4px;
       }
       
       div.gallery img {
@@ -108,8 +109,13 @@ li a:hover {
         padding: 5px;
       }
       
-      div.desc {
-        padding: 15px;
-        text-align: center;
-        color: white;
+      /*
+      nav{
+        padding: 0 50px;
+        width: 100%;
       }
+      #navbar-one {
+        background-color: #777;
+        cursor: pointer;
+
+      } */
