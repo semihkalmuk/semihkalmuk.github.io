@@ -31,9 +31,9 @@ body {
     background-color: black;
     color: whitesmoke;
     width: 100%;
-    height:auto;
+    height: 17%;
     position:fixed;
-
+    opacity: 85%;
 }
 ul{
     list-style:none;
@@ -46,18 +46,26 @@ ul{
 li a {
     text-decoration: none;
     color: white;
-    padding-right: 2.5cm;
-    position: relative;
-    transition: all ease-in-out 250ms
+    padding-right: 1.8cm;
+    position:relative;
+    transition: all ease-in-out 250ms;
+    font-size: 20px;
+    opacity: 100%;
+}
+li:first-child{
+    margin-right: auto;
+    margin-left: 0.5cm;
+    margin-top: -0.55cm;
+    opacity:100%;
 }
 li a::after{
     content: '';
-    position: absolute;
+    position: fixed;
     display: block;
-    height: 0.12cm;
+    height: 0.10cm;
     width: 0%;
     background-color: rgb(43, 41, 41);
-    bottom: -0.75em;
+    bottom: -1em;
     transition: all ease-in-out 250ms;
 }
 li a:hover::after{
@@ -69,10 +77,9 @@ li a:hover {
     transition: all ease-in-out 250ms;
     opacity: 70%;
 }
-li:first-child{
-    margin-right: auto;
-    margin-left: 0.5cm;}
-#goupbutton {
+
+
+    #goupbutton {
     position: fixed;
     bottom: 1%;
     right: 1%;
