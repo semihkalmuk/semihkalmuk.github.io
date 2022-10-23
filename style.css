@@ -94,7 +94,7 @@ li a:hover {
     }    
     div.gallery {
         margin: 5px;
-        border: 1px solid #ccc;
+        border: 1px solid gray;
         float: left;
         width: 500px;
         margin-top: 5cm;
