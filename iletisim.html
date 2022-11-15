@@ -11,17 +11,18 @@
     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
-<div id="navbar">
-        <ul>
-    
-          <li> <a href=""> <img src="logo.jpeg" width="300px" height="100%"> </a></li>
-          <li> <a href="index.html">Ana Sayfa</a></li>
-          <li> <a href="marka.html">Markalarımız</a></li>
-          <li> <a href="referans.html">Referanslarımız</a></li>
-          <li> <a href="iletisim.html">İletişim</a></li>
-</div>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" id="navbar-index"> <img src="logo.jpeg" style="width:20%;height:20%" class="active"></a>
+    <a href="index.html">Ana Menü</a>
+    <a href="marka.html">Markalarımız</a>
+    <a href="referans.html">Referanslarımız</a>
+    <a href="iletisim.html">İletişim</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
      <div id="mainproject">
-                <div id="harita">   <p> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d377.73517893019346!2d29.92411947738592!3d40.76463249769436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb4581012150fb%3A0x719e39bf884bf9d1!2zS2FsbXVrIFBlcmRlICYgRMO2xZ9lbWVsaWs!5e0!3m2!1str!2str!4v1665140797063!5m2!1str!2str" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                <div id="harita">   <p> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12087.52359741141!2d29.9241754!3d40.7646442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x719e39bf884bf9d1!2zS2FsbXVrIFBlcmRlICYgRMO2xZ9lbWVsaWs!5e0!3m2!1str!2str!4v1668345023502!5m2!1str!2str" width="90%" height="400vw" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
                 </div>
                      <div id="konum">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -44,5 +45,15 @@
                       </div>   
                 </div>   
                 </div>
+                <script>
+                  function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                      x.className += " responsive";
+                    } else {
+                      x.className = "topnav";
+                    }
+                  }
+                  </script>
 </body>
 </html>
