@@ -110,7 +110,7 @@ li a:hover {
       margin-left: auto;
     }
     .topnav a {
-      float: inline-start;
+      float: left;
       display: block;
       color: white;
       text-align: center;
