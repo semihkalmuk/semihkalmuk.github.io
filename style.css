@@ -10,17 +10,18 @@ body {
 #anayazi {
 
 text-align: center;
-font-size: 250%;
+font-size: 350%;
 margin-top: 10%;
 }
 #anametin {
-  text-align:right;
+  text-align:unset;
   font-size: 175%;
-  padding: 15%;
+  padding: 20%;
+  padding-top: 10%;
 }
 
 #buttons {
-    color: white;
+    color: black;
 }
 #harita {
     text-align: center;
@@ -245,9 +246,22 @@ margin: auto;
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
-}
 
-  
+}
+@media only screen and (max-width: 600px) {
+  #anayazi {
+
+    text-align: center;
+    font-size: 8vw;
+    margin-top: 10%;
+    }
+    #anametin {
+      text-align:unset;
+      font-size: 4vw;
+      padding: 20%;
+      padding-top: 10%;
+    }
+
+}
