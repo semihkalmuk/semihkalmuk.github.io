@@ -7,6 +7,17 @@ body {
     background-attachment: fixed;
 }
 
+#anayazi {
+
+text-align: center;
+font-size: 250%;
+margin-top: 10%;
+}
+#anametin {
+  text-align:right;
+  font-size: 175%;
+  padding: 15%;
+}
 
 #buttons {
     color: white;
@@ -238,4 +249,5 @@ margin: auto;
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
   
