@@ -1,10 +1,9 @@
 body {
-    background-color:gray;
+    background-color:white;
     font-family: Lato, sans-serif;
-    margin: 0;
-    background-repeat:repeat;
-    background-size: 10%; 
-    background-attachment: fixed;
+    margin: 0; 
+    line-height: 1.5;
+  
 }
 
 #anayazi {
@@ -39,59 +38,7 @@ margin-top: 10%;
     text-align: center;
     margin-top: 10px;
 }
-#navbar {
-    background-color: black;
-    color: whitesmoke;
-    width: 100%;
-    height: 17%;
-    position:fixed;
-    opacity: 85%;
-}
-ul{
-    list-style:none;
-    margin:0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1cm 0;
-}
-li a {
-    text-decoration: none;
-    color: white;
-    padding-right: 1.8cm;
-    position:relative;
-    transition: all ease-in-out 250ms;
-    font-size: 20px;
-    opacity: 100%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-li:first-child{
-    margin-right: auto;
-    margin-left: 0.5cm;
-    margin-top: -0.55cm;
-    opacity:100%;
-}
-li a::after{
-    content: '';
-    position: fixed;
-    display: block;
-    height: 0.10cm;
-    width: 0%;
-    background-color: rgb(43, 41, 41);
-    bottom: -1em;
-    transition: all ease-in-out 250ms;
-}
-li a:hover::after{
-    width: 60%;
-    opacity: 60%;
-}
-li a:hover {
-    color: gray;
-    transition: all ease-in-out 250ms;
-    opacity: 70%;
-}
-
-
+/*
     #goupbutton {
     position: fixed;
     bottom: 1%;
@@ -106,17 +53,19 @@ li a:hover {
         padding: 5px;
         border: 1px solid;
         border-color: rgb(50, 49, 49);
-    }   
+    }   */
    
     #navbar-index {
       float: left;
       background-color: black;
       color: black;
+      position:relative;
     }
     
     .topnav {
       overflow: hidden;
       background-color: black;
+      text-align: center;
     }
     .topnav a:not(:first-child) {
       margin-left: auto;
@@ -158,11 +107,7 @@ li a:hover {
         float: right;
         display: block;
       }
-      #navbar-index
-      {
-        float: left;
-        
-      }
+     
       
       
     }
@@ -180,6 +125,7 @@ li a:hover {
         text-align: left;
       }
     }
+    /*
     div.gallery {
       margin: 5px;
       border: 1px solid rgb(60, 59, 59);
@@ -204,52 +150,8 @@ li a:hover {
     }
     .mySlides {display: none;}
 img {vertical-align: middle;}
+*/
 
-.slideshow-container {
-width: 100%; 
-height: 70%;
-max-height: 70%;
-position: relative;
-margin: auto;
-}
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-  .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-
-}
 @media only screen and (max-width: 600px) {
   #anayazi {
 
@@ -265,3 +167,7 @@ margin: auto;
     }
 
 }
+
+
+
+

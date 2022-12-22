@@ -7,12 +7,49 @@
     <title>Kalmuk Tekstil</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700">
     <link href="style.css" rel="stylesheet">
-    <link href="style.scss" rel="stylesheet">
     <link href="reset.css" rel="stylesheet">
     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </head>
+<style> *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.row {
+  display:flex;
+flex-wrap:wrap;
+}
+ul {
+  list-style: none;
+}
+.footer{
+  background-color: black;
+padding: 70px 0;
+}
+.container{
+  max-width:1170px;
+  margin:auto;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+  
+}
+.footer-col ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: gray;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  position: relative;
+}
+</style>
 <body>
   
   <div class="topnav" id="myTopnav">
@@ -49,13 +86,53 @@
   <h1 id="anayazi">Kalite Önceliğimizdir </h1>
   <p id="anametin"> 1995'ten beri tecrübemiz, özenimiz ve titizliğimizle sizlere en kaliteli ürünleri sunmayı temenni ediyoruz. 
     Başta Epengle, Verdi ve Plicell olmak üzere bir çok markanın bayiliğini yapıyoruz. Size en uygun perde veya kumaşı beğenmeniz için mağazamıza bekliyoruz.</p>
-  <div id="buttons">
+  
+    <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+       <h4><img src="logo.jpeg"></a></h4>
+       <ul>
+        <li><a></a> </li>
+       </ul>
+      </div>
+      <div class="footer-col">
+        <h4> Yönlendirmeler </h4>
+        <ul>
+         <li><a href="#"> Ana Menü</a> </li>
+         <li><a href="#"> Hakkımızda</a> </li>
+         <li><a href="marka.html"> Markalarımız </a> </li>
+         <li><a href="referans.html"> Referanslarımız</a> </li>
+         <li><a href="iletisim.html"> İletişim</a> </li>
+
+        </ul>
+       </div>
+       <div class="footer-col">
+       <h4> İletişim</h4>
+       <ul>
+        <li> <p> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12087.52359741141!2d29.9241754!3d40.7646442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x719e39bf884bf9d1!2zS2FsbXVrIFBlcmRlICYgRMO2xZ9lbWVsaWs!5e0!3m2!1str!2str!4v1668345023502!5m2!1str!2str" width="120%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p></li>
+        <li><span> <i class="fa-sharp fa-solid fa-location-dot"></i> Tepecik Mahallesi Tepecik Sokak No:9/A Kocaeli/İzmit</span></li>
+        <li><span><a href="tel:+905336930871"><i class="fa-solid fa-phone"></i> 05336930871</a></span></li>
+      </ul>
+      </div>
+      <div class="footer-col">
+        <h4> Bizi Takip Edin</h4>
+        <ul>
+         <li><a ></a> </li>
+        </ul>
+       </div>
+   </div>
+  </div>
+
+  </footer>
+    <!-- 
+    <div id="buttons">
     <div id="goupbutton">
       <a href="#"><i class="fa fa-angle-up" ></i></a>
     </div>
     <div id="call-button">
       <a href="tel:+905336930871"><i class="fa fa-phone" aria-hidden="true"></i> 05336930871</a>
-    </div>
+    </div> -->
     <script>
       function myFunction() {
         var x = document.getElementById("myTopnav");
