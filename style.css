@@ -132,7 +132,7 @@ margin-top: 10%;
       }
     }
     
-@media only screen and (max-width: 600px) {
+@media   (max-width: 600px) {
   #anayazi {
 
     text-align: center;
@@ -141,9 +141,10 @@ margin-top: 10%;
     }
     #anametin {
       font-size: 4vw;
-      padding: 20%;
+      padding: 19%;
       padding-top: 10%;
     }
+
 
 }
 
