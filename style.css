@@ -31,12 +31,20 @@ margin-top: 10%;
     left: 50%;
     font-size: 30px;
 }
+#buttonsiletisim {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  padding: 10vw;
+  padding-top: 0;
+}
 #konum {
     color: white;
     text-align: center;
     margin-top: 10px;
 }
-/*
+
     #goupbutton {
     position: fixed;
     bottom: 1%;
@@ -51,7 +59,7 @@ margin-top: 10%;
         padding: 5px;
         border: 1px solid;
         border-color: rgb(50, 49, 49);
-    }   */
+    }   
    
     #navbar-index {
       float: left;
@@ -123,33 +131,7 @@ margin-top: 10%;
         text-align: left;
       }
     }
-    /*
-    div.gallery {
-      margin: 5px;
-      border: 1px solid rgb(60, 59, 59);
-      width: 38%;
-      float: left;
-      margin-top: 5cm;
-      background-color: black;
-      margin-left: 5%;
-      margin-right: 5%;
-      margin-bottom: 5%;
-    }
     
-    div.gallery:hover {
-      border: 1px solid rgb(60, 59, 59);
-      border-radius: 4px;
-    }
-    
-    div.gallery img {
-      width: 600px;
-      height: 200px;
-      padding: 40px;
-    }
-    .mySlides {display: none;}
-img {vertical-align: middle;}
-*/
-
 @media only screen and (max-width: 600px) {
   #anayazi {
 

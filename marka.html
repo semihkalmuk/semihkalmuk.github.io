@@ -10,17 +10,88 @@
     <link href="reset.css" rel="stylesheet">
     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
+<style>
+  *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+#baslik {
+  font-size: 25px;
+  color: gray;
+}
+.copyright {
+  margin-top: 50px;
+  background-color: black;
+  color: gray;
+  text-align: center;
+margin-top: -40px; 
+padding-bottom: 20px;}
+.row {
+  display:flex;
+flex-wrap:wrap;
+}
+ul {
+  list-style: none;
+}
+.footer{
+  background-color: black;
+padding: 68px;
+}
+.container{
+   margin:auto;
+   max-width: 1170px;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+  
+}
+.footer-col ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: gray;
+  text-transform: capitalize;
+  margin-top: 5%;
+}
+@media (max-width:770px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+}
+  #markabaslik
+  {
+font-size: 5vw;
+padding: 12vw;
+text-align: center;
+
+  }
+  #urunyazi{
+    font-size: 2vw;
+    padding: 10vw;
+    padding-top: 0;
+  }
+  .gallery {
+    text-align: center;
+  }
+</style>
 <body>
-    <div id="navbar">
-        <ul>
-    
-            <li> <a href=""> <img src="logo.jpeg" width="300px" height="100%"> </a></li>
-            <li> <a href="index.html">Ana Sayfa</a></li>
-            <li> <a href="marka.html">Markalarımız</a></li>
-            <li> <a href="referans.html">Referanslarımız</a></li>
-            <li> <a href="iletisim.html">İletişim</a></li>
-            
-</div>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" id="navbar-index"> <img src="logo.jpeg" style="width:20%;height:20%" class="active"></a>
+    <a href="index.html" id="anaSayfa">Ana Menü</a>
+    <a href="marka.html">Markalarımız</a>
+    <a href="referans.html">Referanslarımız</a>
+    <a href="iletisim.html">İletişim</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <h1 id="markabaslik">Bayisi olduğumuz markalar</h1>
 <div id="urunmain">
     <div id="buttons">
         <div id="goupbutton">
@@ -30,25 +101,83 @@
 </div>
 <div class="gallery">
     <a target="_blank" href="https://www.epengle.com.tr">
-        <img src="epengle.png" alt="Epengle" width="600px" height="400px">
+        <img src="epengle.png" alt="Epengle" width="450vw" height="300">
     </a>
+    <p id="urunyazi"> ... yıldan beri kumaşta vazgeçilmez kalite Epengle.</p>
   </div>
   <div class="gallery">
     <a target="_blank" href="http://verdihome.com">
-        <img src="verdi.png" alt="Verdi" width="600px" height="400px">
+        <img src="verdi.png" alt="Verdi" width="450vw" height="300">
     </a>
+    <p id="urunyazi"> ... yıldan beri kumaşta vazgeçilmez kalite Epengle.</p>
+
   </div>
   <div class="gallery">
     <a target="_blank" href="https://www.safagirisken.com">
-        <img src="safagirisken.png" alt="Safa Girişken" width="600px" height="400px">
+        <img src="safagirisken.png" alt="Safa Girişken" width="450vw" height="300">
     </a>
+    <p id="urunyazi"> ... yıldan beri kumaşta vazgeçilmez kalite Epengle.</p>
+
   </div>
   <div class="gallery">
     <a target="_blank" href="https://www.plicell.com">
-        <img src="plicell.png" alt="plicell" width="600px" height="400px">
+        <img src="plicell.png" alt="plicell" width="450vw" height="300">
     </a>
+    <p id="urunyazi"> ... yıldan beri kumaşta vazgeçilmez kalite Epengle.</p>
+
   </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+         <h4><img src="logo.jpeg"></a></h4>
+         <ul>
+          <li><a></a> </li>
+         </ul>
+        </div>
+        <div class="footer-col">
+          <ul>
+  
+           <li><a id="baslik">Yönlendirme</a> </li>
+           <li><a href="#"> Ana Sayfa</a> </li>
+           <li><a href=""> Hakkımızda</a> </li>
+           <li><a href="marka.html"> Markalarımız </a> </li>
+           <li><a href="referans.html"> Referanslarımız</a> </li>
+           <li><a href="iletisim.html"> İletişim</a> </li>
+  
+          </ul>
+         </div>
+         <div class="footer-col">
+         <ul>
+          <li><a id="baslik">İletişim</a> </li>
+          <li><span> <a href="https://www.google.com/maps/dir//kalmuk+perde+…/@40.7294748,29.6566646,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14cb4581012150fb:0x719e39bf884bf9d1!2m2!1d29.9241754!2d40.7646442"><i class="fa-sharp fa-solid fa-location-dot"></i> Tepecik Mahallesi Tepecik Sokak No:9/A Kocaeli/İzmit</a></span></li>
+          <li><span><a href="tel:+905336930871"><i class="fa-solid fa-phone"></i> 05336930871</a></span></li>
+        </ul>
+        </div>
+        <div class="footer-col">
+          <ul>
+            <li><a id="baslik">Sosyal Medya</a> </li>
+          </ul>
+         </div>
+         
+     </div>
+    </div>
+    </footer>
+    <div class="copyright"><span>© Kalmuk Tekstil - 2023 Tüm hakları saklıdır.</span>
+    </div>
   
 
 </body>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  let slideIndex = 0;
+  
+  </script>
 </html>
