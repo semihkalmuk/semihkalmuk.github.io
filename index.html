@@ -17,6 +17,16 @@
   padding:0;
   box-sizing:border-box;
 }
+#baslik {
+  font-size: 25px;
+  color: gray;
+}
+.copyright {
+  margin-bottom: 0;
+  background-color: black;
+  color: gray;
+  text-align: center;
+}
 .row {
   display:flex;
 flex-wrap:wrap;
@@ -26,7 +36,7 @@ ul {
 }
 .footer{
   background-color: black;
-padding: 70px 0;
+padding: 60px 0;
 }
 .container{
   max-width:1170px;
@@ -46,8 +56,14 @@ padding: 70px 0;
   font-size: 18px;
   color: gray;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-top: 5%;
   position: relative;
+}
+@media (max-width:600px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 20px;
+  }
 }
 </style>
 <body>
@@ -97,9 +113,10 @@ padding: 70px 0;
        </ul>
       </div>
       <div class="footer-col">
-        <h4> Yönlendirmeler </h4>
         <ul>
-         <li><a href="#"> Ana Menü</a> </li>
+
+         <li><a id="baslik">Yönlendirme</a> </li>
+         <li><a href="#"> Hakkımızda</a> </li>
          <li><a href="#"> Hakkımızda</a> </li>
          <li><a href="marka.html"> Markalarımız </a> </li>
          <li><a href="referans.html"> Referanslarımız</a> </li>
@@ -108,23 +125,23 @@ padding: 70px 0;
         </ul>
        </div>
        <div class="footer-col">
-       <h4> İletişim</h4>
        <ul>
-        <li> <p> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12087.52359741141!2d29.9241754!3d40.7646442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x719e39bf884bf9d1!2zS2FsbXVrIFBlcmRlICYgRMO2xZ9lbWVsaWs!5e0!3m2!1str!2str!4v1668345023502!5m2!1str!2str" width="120%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p></li>
-        <li><span> <i class="fa-sharp fa-solid fa-location-dot"></i> Tepecik Mahallesi Tepecik Sokak No:9/A Kocaeli/İzmit</span></li>
+        <li><a id="baslik">İletişim</a> </li>
+        <li><span> <a href="https://www.google.com/maps/dir//kalmuk+perde+…/@40.7294748,29.6566646,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14cb4581012150fb:0x719e39bf884bf9d1!2m2!1d29.9241754!2d40.7646442"><i class="fa-sharp fa-solid fa-location-dot"></i> Tepecik Mahallesi Tepecik Sokak No:9/A Kocaeli/İzmit</a></span></li>
         <li><span><a href="tel:+905336930871"><i class="fa-solid fa-phone"></i> 05336930871</a></span></li>
       </ul>
       </div>
       <div class="footer-col">
-        <h4> Bizi Takip Edin</h4>
         <ul>
-         <li><a ></a> </li>
+          <li><a href="#" id="baslik">Sosyal Medya</a> </li>
         </ul>
        </div>
+       
    </div>
   </div>
-
   </footer>
+  <div class="copyright"><a>© Kalmuk Tekstil - 2023 Tüm hakları saklıdır.</a>
+       </div>
     <!-- 
     <div id="buttons">
     <div id="goupbutton">
