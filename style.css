@@ -66,6 +66,9 @@ padding-top: 0;
     color: black;
     position:relative;
   }
+  .footersocial 
+  {
+font-size: 3vw;   }
   
   .topnav {
     overflow: hidden;
@@ -115,10 +118,11 @@ padding-top: 0;
       float: right;
       display: block;
     }
+  
    
+}
     
-    
-  }
+
   
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
@@ -146,6 +150,8 @@ padding-top: 0;
     padding: 19%;
     padding-top: 10%;
   }
-
+  .footersocial 
+  {
+font-size: 10vw;   }
 
 }
